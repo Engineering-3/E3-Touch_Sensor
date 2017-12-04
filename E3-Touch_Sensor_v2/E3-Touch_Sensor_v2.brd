@@ -8,7 +8,7 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -26,12 +26,12 @@
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
@@ -55,7 +55,7 @@
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -172,6 +172,16 @@ Sensor</text>
 <text x="2.794" y="8.255" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">H</text>
 <text x="1.143" y="8.382" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">L</text>
 <wire x1="0.381" y1="7.62" x2="3.048" y2="7.62" width="0.2032" layer="22"/>
+<dimension x1="0" y1="19.05" x2="0" y2="0" x3="-3.81" y3="9.525" textsize="1.778" layer="48" unit="inch"/>
+<dimension x1="0" y1="0" x2="12.7" y2="0" x3="6.35" y3="-5.08" textsize="1.778" layer="48" unit="inch"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="16.51" width="0" layer="48"/>
+<wire x1="2.54" y1="16.51" x2="0" y2="16.51" width="0" layer="48"/>
+<wire x1="0" y1="2.54" x2="10.16" y2="2.54" width="0" layer="48"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="0" width="0" layer="48"/>
+<dimension x1="2.54" y1="16.51" x2="0" y2="16.51" x3="1.27" y3="22.86" textsize="1.778" layer="48" unit="inch"/>
+<dimension x1="0" y1="2.54" x2="10.16" y2="2.54" x3="5.08" y3="29.21" textsize="1.778" layer="48" unit="inch"/>
+<dimension x1="10.16" y1="2.54" x2="10.16" y2="0" x3="17.78" y3="1.27" textsize="1.778" layer="48" unit="inch"/>
+<dimension x1="2.54" y1="0" x2="2.54" y2="16.51" x3="25.4" y3="8.255" textsize="1.778" layer="48" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
