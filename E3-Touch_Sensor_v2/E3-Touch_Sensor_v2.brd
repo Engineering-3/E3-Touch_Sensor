@@ -23,14 +23,14 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -157,7 +157,6 @@
 <wire x1="0" y1="0" x2="12.7" y2="0" width="0" layer="20"/>
 <wire x1="12.7" y1="0" x2="12.7" y2="19.05" width="0" layer="20"/>
 <wire x1="12.7" y1="19.05" x2="0" y2="19.05" width="0" layer="20"/>
-<wire x1="0" y1="19.05" x2="0" y2="0" width="0" layer="20"/>
 <hole x="10.16" y="2.54" drill="3.175"/>
 <hole x="2.54" y="16.51" drill="3.175"/>
 <text x="2.794" y="5.842" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">G</text>
@@ -168,20 +167,19 @@ Sensor</text>
 <text x="4.191" y="10.922" size="1.27" layer="21" font="vector" ratio="12" rot="R90">v2</text>
 <text x="1.143" y="5.842" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">V</text>
 <text x="2.794" y="3.302" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">V</text>
+<wire x1="0" y1="19.05" x2="0" y2="0" width="0" layer="20"/>
 <wire x1="1.651" y1="9.779" x2="1.651" y2="2.921" width="0.2032" layer="22"/>
 <text x="2.794" y="8.255" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">H</text>
 <text x="1.143" y="8.382" size="1.016" layer="22" font="vector" ratio="12" rot="MR0">L</text>
 <wire x1="0.381" y1="7.62" x2="3.048" y2="7.62" width="0.2032" layer="22"/>
-<dimension x1="0" y1="19.05" x2="0" y2="0" x3="-3.81" y3="9.525" textsize="1.778" layer="48" unit="inch"/>
-<dimension x1="0" y1="0" x2="12.7" y2="0" x3="6.35" y3="-5.08" textsize="1.778" layer="48" unit="inch"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="16.51" width="0" layer="48"/>
-<wire x1="2.54" y1="16.51" x2="0" y2="16.51" width="0" layer="48"/>
-<wire x1="0" y1="2.54" x2="10.16" y2="2.54" width="0" layer="48"/>
-<wire x1="10.16" y1="2.54" x2="10.16" y2="0" width="0" layer="48"/>
-<dimension x1="2.54" y1="16.51" x2="0" y2="16.51" x3="1.27" y3="22.86" textsize="1.778" layer="48" unit="inch"/>
-<dimension x1="0" y1="2.54" x2="10.16" y2="2.54" x3="5.08" y3="29.21" textsize="1.778" layer="48" unit="inch"/>
-<dimension x1="10.16" y1="2.54" x2="10.16" y2="0" x3="17.78" y3="1.27" textsize="1.778" layer="48" unit="inch"/>
-<dimension x1="2.54" y1="0" x2="2.54" y2="16.51" x3="25.4" y3="8.255" textsize="1.778" layer="48" unit="inch"/>
+<dimension x1="0" y1="19.05" x2="0" y2="0" x3="-3.81" y3="9.525" textsize="1.27" layer="48" unit="inch"/>
+<dimension x1="0" y1="0" x2="12.7" y2="0" x3="6.35" y3="-5.08" textsize="1.27" layer="48" unit="inch"/>
+<dimension x1="2.54" y1="16.51" x2="0" y2="16.51" x3="1.27" y3="22.86" textsize="1.27" layer="48" unit="inch"/>
+<dimension x1="0" y1="2.54" x2="10.16" y2="2.54" x3="5.08" y3="30.48" textsize="1.27" layer="48" unit="inch"/>
+<dimension x1="10.16" y1="2.54" x2="10.16" y2="0" x3="17.78" y3="1.27" textsize="1.27" layer="48" unit="inch"/>
+<dimension x1="2.54" y1="0" x2="2.54" y2="16.51" x3="25.4" y3="8.255" textsize="1.27" layer="48" unit="inch"/>
+<dimension x1="8.763" y1="13.208" x2="8.763" y2="0" x3="21.59" y3="6.604" textsize="1.27" layer="20" unit="inch"/>
+<dimension x1="8.763" y1="13.208" x2="0" y2="13.208" x3="4.3815" y3="26.67" textsize="1.27" layer="20" unit="inch"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
