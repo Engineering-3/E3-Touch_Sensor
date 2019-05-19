@@ -13,7 +13,7 @@ Repository Contents
 
 Version History
 ---------------
-* [E3-Touch_v1_3](https://github.com/Engineering-3/E3-Touch/tree/master/E3-Touch_v1_3)- First released version
+* [E3-Touch_v1_3](https://github.com/Engineering-3/E3-Touch_Sensor/tree/master/E3-Touch_Sensor_v1)- First released version
 
 
 License Information
