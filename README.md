@@ -2,7 +2,7 @@
 
 ![E3-Touch](https://engineering3.org/wp-content/uploads/GitHub/E3-Touch.jpg)
 
-This is the momentary switch used with the Engineering^3 curriculum and RCM Control Stack. Please see [Engineering^3](http://engineering3.org/) for more information on the complete RCM Control Stack project.
+This is the momentary switch used with the Engineering^3 curriculum and RCM Control Stack. Please see [Engineering3](http://engineering3.org/) for more information on the complete RCM Control Stack project.
 
 
 Repository Contents
